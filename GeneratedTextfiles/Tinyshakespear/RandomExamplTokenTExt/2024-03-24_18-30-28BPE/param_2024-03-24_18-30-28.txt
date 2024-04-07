@@ -1,0 +1,12 @@
+batch_size: 4
+block_size: 256
+max_iters: 5000
+eval_interval: 500
+learning_rate: 0.0003
+device: cuda:0
+eval_iters: 200
+n_embd: 384
+n_head: 6
+n_layer: 6
+dropout: 0.2
+train_val_split: 0.9

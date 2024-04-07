@@ -52,7 +52,7 @@ The `FinalModelCorrect.ipynb` script allows users to select the tokenizer best s
 
 The `tiktoken` package, used for Byte-Pair Encoding (BPE) tokenization, has known compatibility issues with macOS systems. An alternative option is to choose character-wise tokenization. Users attempting to run this project on a Mac may need to seek alternative tokenization libraries or run the code within a Docker container or virtual machine that emulates a compatible environment. 
 
-### Observations and Findings from the Experiments
+## Results
  
 The MiniGPT was trained on two distinct datasets: TinyShakespeare, featuring the poetic and archaic language of Shakespeare's works, and ConservativeVoicesUSA, a compilation of modern conservative dialogue from Joe Rogan podcasts. These datasets presented unique challenges and learning opportunities for the model.
 

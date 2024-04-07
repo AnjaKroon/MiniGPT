@@ -1,4 +1,4 @@
-# MiniGPT: Text Generation on Constrained Resources
+# MiniGPT: Text Generation with Prompt Injection
 
 This project contains the development and training of a MiniGPT model, a compact version of the Generative Pretrained Transformer designed to operate within resource-constrained environments. The MiniGPT model is capable of generating textual responses based on previously seen text, equivalent to input from the `input.txt` file.
 

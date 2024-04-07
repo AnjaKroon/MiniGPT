@@ -2,6 +2,8 @@
 
 This project contains the development and training of a MiniGPT model, a compact version of the Generative Pretrained Transformer designed to operate within resource-constrained environments. The MiniGPT model is capable of generating textual responses based on previously seen text, equivalent to input from the `input.txt` file.
 
+The MiniGPT was trained on two distinct datasets: TinyShakespeare, featuring the poetic and archaic language of Shakespeare's works, and ConservativeVoicesUSA, a compilation of modern conservative dialogue from Joe Rogan podcasts. These datasets presented unique challenges and learning opportunities for the model.
+
 ## Project Structure
 - `FinalModelCorrect.ipynb`: Contains the MiniGPT model, which focuses on training a machine learning model for text generation, learning from input text to generate contextually relevant and stylistically similar outputs.
 - `Spellchecker.ipynb`: Implements a spell checking utility that identifies misspelled words in a text file and calculates the percentage of correctly spelled words. Methods have all been moved to FinalModelCorrect.ipynb
@@ -53,8 +55,6 @@ The `FinalModelCorrect.ipynb` script allows users to select the tokenizer best s
 The `tiktoken` package, used for Byte-Pair Encoding (BPE) tokenization, has known compatibility issues with macOS systems. An alternative option is to choose character-wise tokenization. Users attempting to run this project on a Mac may need to seek alternative tokenization libraries or run the code within a Docker container or virtual machine that emulates a compatible environment. 
 
 ## Results
- 
-The MiniGPT was trained on two distinct datasets: TinyShakespeare, featuring the poetic and archaic language of Shakespeare's works, and ConservativeVoicesUSA, a compilation of modern conservative dialogue from Joe Rogan podcasts. These datasets presented unique challenges and learning opportunities for the model.
 
 #### Key Observations:
 

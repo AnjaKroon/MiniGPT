@@ -1,4 +1,4 @@
-
+![Afbeelding van WhatsApp op 2024-04-07 om 21 08 55_4ef44b13](https://github.com/AnjaKroon/MiniGPT/assets/154330044/09c6a973-39cc-4cbc-9479-4db5f5ade04e)
 # MiniGPT: Text Generation on Constrained Resources
 
 This project contains the development and training of a MiniGPT model, a compact version of the Generative Pretrained Transformer designed to operate within resource-constrained environments. The MiniGPT model is capable of generating textual responses based on previously seen text, equivalent to input from the `input.txt` file.
@@ -78,6 +78,9 @@ Our experiments with the MiniGPT model yielded insightful observations regarding
 - **Resource Constraints**: The experiments highlighted the balance between model performance and computational resource demands. Training models with parameters nearing 100M required substantial GPU capabilities, emphasizing the importance of resource availability in achieving desired outcomes.
 
 ### Results and Performance Metrics
+The training and validation losses of our final model are shown in the image below. The generated losses were based on a model trained on the ConservativeVoicesUSA dataset.
+
+![TrainValLoss](https://github.com/AnjaKroon/MiniGPT/assets/154330044/c3e8eb8d-7db9-4b88-833a-a4a2bccc43cb)
 
 
 Step	Train Loss	Validation Loss

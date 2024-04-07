@@ -6,7 +6,7 @@ The MiniGPT was trained on two distinct datasets: `TinyShakespeare.txt`, featuri
 
 ## Project Structure
 - `FinalModelCorrect.ipynb`: Contains the MiniGPT model, which focuses on training a machine learning model for text generation, learning from input text to generate contextually relevant and stylistically similar outputs.
-- `Spellchecker.ipynb`: Implements a spell checking utility that identifies misspelled words in a text file and calculates the percentage of correctly spelled words. Methods have all been moved to FinalModelCorrect.ipynb
+- `Spellchecker.ipynb`: Implements a spell checking utility that identifies misspelled words in a text file and calculates the percentage of correctly spelled words. Methods have all been moved to `FinalModelCorrect.ipynb`
 
 ## Getting Started
 

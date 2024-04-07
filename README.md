@@ -62,6 +62,10 @@ This model has been developed with consideration for computational resource cons
 
 **Note**: Users with less powerful hardware should be cautious of potential memory limitations and may need to adjust model parameters or utilize external compute resources.
 
+## Choosing the Tokenizer
+
+The `FinalModelCorrect.py` script is designed with flexibility in mind, allowing users to select the tokenizer best suited for their specific text processing needs. Supported tokenization methods include character, Byte-Pair Encoding (BPE), and word, which can be easily chosen within the code. This feature enables users to tailor the model's preprocessing step to optimize performance based on the characteristics of the input data.
+
 ### Mac Compatibility
 
 The `tiktoken` package, used for Byte-Pair Encoding (BPE) tokenization, has known compatibility issues with macOS systems. Users attempting to run this project on a Mac may need to seek alternative tokenization libraries or run the code within a Docker container or virtual machine that emulates a compatible environment.
@@ -90,7 +94,3 @@ The training and validation losses of our final model are shown in the image bel
 #### Insights:
 
 The experiments underscore the feasibility of deploying smaller-scale GPT models for specialized text generation tasks, balancing performance with computational resource constraints. The findings also illuminate the critical role of tokenization in model performance and the inherent trade-offs between model complexity and resource availability.
-
-## Choosing the Tokenizer
-
-The `FinalModelCorrect.py` script is designed with flexibility in mind, allowing users to select the tokenizer best suited for their specific text processing needs. Supported tokenization methods include character, Byte-Pair Encoding (BPE), and word, which can be easily chosen within the code. This feature enables users to tailor the model's preprocessing step to optimize performance based on the characteristics of the input data.

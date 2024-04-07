@@ -67,4 +67,4 @@ The training and validation losses of our final model are shown in the image bel
 - **Text Generation Quality**: Qualitative assessments of generated text highlighted the model's proficiency in creating content that was stylistically and thematically aligned with the input datasets. Generated text samples exhibited clear influences from the training data, including the emulation of Shakespearean language and the reflection of conservative viewpoints from the ConservativeVoicesUSA dataset.
 
 ## Acknowledgements
-This code has been created based on Andrej Karpathy's ``Let's build GPT: from scratch, in code, spelled out.`` which can be found at: [Link]([URL](https://www.youtube.com/watch?v=kCc8FmEb1nY))
+This code has been created based on Andrej Karpathy's Let's build GPT: from scratch, in code, spelled out. which can be found at: [Link](https://www.youtube.com/watch?v=kCc8FmEb1nY)

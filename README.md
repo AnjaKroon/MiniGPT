@@ -12,7 +12,7 @@ The MiniGPT was trained on two distinct datasets: TinyShakespeare, featuring the
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.9
 - PyTorch
 - pyspellchecker
 - tiktoken (Note: May encounter compatibility issues with macOS systems.)
@@ -22,11 +22,11 @@ The MiniGPT was trained on two distinct datasets: TinyShakespeare, featuring the
 Install the necessary Python packages by running:
 
 ```bash
-pip install torch
-pip install pyspellchecker
-pip install tiktoken
+pip install torch==2.1.0
+pip install pyspellchecker==0.8.1
+pip install tiktoken==0.6.0
 ```
-
+Python version 3.9 must be running.
 
 ## Prompt Injection for Model Text Continuation
 

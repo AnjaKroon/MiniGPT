@@ -10,13 +10,6 @@ The MiniGPT was trained on two distinct datasets: `TinyShakespeare.txt`, featuri
 
 ## Getting Started
 
-### Prerequisites
-
-- Python 3.9
-- PyTorch
-- pyspellchecker
-- tiktoken (Note: May encounter compatibility issues with macOS systems.)
-
 ### Installation
 
 Install the necessary Python packages by running:
@@ -26,7 +19,7 @@ pip install torch==2.1.0
 pip install pyspellchecker==0.8.1
 pip install tiktoken==0.6.0
 ```
-Python version 3.9 must be running. It is recommended to make a virtual enviornment for this project to avoid negatively interacting python packages.
+Python version 3.9 must be running. It is recommended to make a virtual enviornment for this project to avoid negatively interacting python packages. Note tiktoken may encounter compatibility issues with macOS systems. As an alternative, choose characterwise tokenization by changing the flag at the top of `FinalModelCorrect.ipynb`.
 
 ## Prompt Injection for Model Text Continuation
 

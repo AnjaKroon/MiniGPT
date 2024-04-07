@@ -26,7 +26,7 @@ pip install torch==2.1.0
 pip install pyspellchecker==0.8.1
 pip install tiktoken==0.6.0
 ```
-Python version 3.9 must be running.
+Python version 3.9 must be running. It is recommended to make a virtual enviornment for this project to avoid negatively interacting python packages.
 
 ## Prompt Injection for Model Text Continuation
 

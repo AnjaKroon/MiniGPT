@@ -2,7 +2,7 @@
 
 This project contains the development and training of a MiniGPT model, a compact version of the Generative Pretrained Transformer designed to operate within resource-constrained environments. The MiniGPT model is capable of generating textual responses based on previously seen text, equivalent to input from the `input.txt` file.
 
-The MiniGPT was trained on two distinct datasets: TinyShakespeare, featuring the poetic and archaic language of Shakespeare's works, and ConservativeVoicesUSA, a compilation of modern conservative dialogue from Joe Rogan podcasts. These datasets presented unique challenges and learning opportunities for the model.
+The MiniGPT was trained on two distinct datasets: `TinyShakespeare.txt`, featuring the poetic and archaic language of Shakespeare's works, and `ConservativeVoicesUSA.txt`, a compilation of modern conservative dialogue from Joe Rogan podcasts. These datasets presented unique challenges and learning opportunities for the model.
 
 ## Project Structure
 - `FinalModelCorrect.ipynb`: Contains the MiniGPT model, which focuses on training a machine learning model for text generation, learning from input text to generate contextually relevant and stylistically similar outputs.

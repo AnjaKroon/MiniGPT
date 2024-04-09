@@ -1,4 +1,5 @@
-# MiniGPT: Text Generation with Prompt Injection
+# MiniGPT: Generating Text via User Prompts Emulating Shakespeare and Conservative Voices
+
 
 This project contains the development and training of a MiniGPT model, a compact version of the Generative Pretrained Transformer designed to operate within resource-constrained environments. The MiniGPT model is capable of generating textual responses based on previously seen text, equivalent to input from the `input.txt` file.
 
